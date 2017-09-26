@@ -8,11 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CE6FA2E71F7A890A00BF984D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FA2E61F7A890A00BF984D /* AppDelegate.swift */; };
-		CE6FA2E91F7A890A00BF984D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FA2E81F7A890A00BF984D /* ViewController.swift */; };
 		CE6FA2EC1F7A890A00BF984D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA2EA1F7A890A00BF984D /* Main.storyboard */; };
 		CE6FA2EE1F7A890A00BF984D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA2ED1F7A890A00BF984D /* Assets.xcassets */; };
 		CE6FA2F11F7A890A00BF984D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA2EF1F7A890A00BF984D /* LaunchScreen.storyboard */; };
 		CE6FA2FC1F7A890A00BF984D /* LARP_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FA2FB1F7A890A00BF984D /* LARP_CompanionTests.swift */; };
+		CE6FA3131F7A894D00BF984D /* Book.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA3061F7A894D00BF984D /* Book.png */; };
+		CE6FA3141F7A894D00BF984D /* chestSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA3071F7A894D00BF984D /* chestSprite.png */; };
+		CE6FA3151F7A894D00BF984D /* Cleric.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA3081F7A894D00BF984D /* Cleric.png */; };
+		CE6FA3161F7A894D00BF984D /* CrystalBall.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA3091F7A894D00BF984D /* CrystalBall.png */; };
+		CE6FA3171F7A894D00BF984D /* DefuseTrap.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA30A1F7A894D00BF984D /* DefuseTrap.png */; };
+		CE6FA3181F7A894D00BF984D /* intimidate.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA30B1F7A894D00BF984D /* intimidate.png */; };
+		CE6FA3191F7A894D00BF984D /* monsterSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA30C1F7A894D00BF984D /* monsterSprite.png */; };
+		CE6FA31A1F7A894D00BF984D /* OpenChest.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA30D1F7A894D00BF984D /* OpenChest.png */; };
+		CE6FA31B1F7A894D00BF984D /* revive.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA30E1F7A894D00BF984D /* revive.png */; };
+		CE6FA31C1F7A894D00BF984D /* Rouge.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA30F1F7A894D00BF984D /* Rouge.png */; };
+		CE6FA31D1F7A894D00BF984D /* trapSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA3101F7A894D00BF984D /* trapSprite.png */; };
+		CE6FA31E1F7A894D00BF984D /* warriror.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA3111F7A894D00BF984D /* warriror.png */; };
+		CE6FA31F1F7A894D00BF984D /* wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6FA3121F7A894D00BF984D /* wizard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +40,6 @@
 /* Begin PBXFileReference section */
 		CE6FA2E31F7A890A00BF984D /* LARP Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LARP Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6FA2E61F7A890A00BF984D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE6FA2E81F7A890A00BF984D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE6FA2EB1F7A890A00BF984D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6FA2ED1F7A890A00BF984D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6FA2F01F7A890A00BF984D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +47,19 @@
 		CE6FA2F71F7A890A00BF984D /* LARP CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LARP CompanionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6FA2FB1F7A890A00BF984D /* LARP_CompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LARP_CompanionTests.swift; sourceTree = "<group>"; };
 		CE6FA2FD1F7A890A00BF984D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6FA3061F7A894D00BF984D /* Book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Book.png; sourceTree = "<group>"; };
+		CE6FA3071F7A894D00BF984D /* chestSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chestSprite.png; sourceTree = "<group>"; };
+		CE6FA3081F7A894D00BF984D /* Cleric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cleric.png; sourceTree = "<group>"; };
+		CE6FA3091F7A894D00BF984D /* CrystalBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrystalBall.png; sourceTree = "<group>"; };
+		CE6FA30A1F7A894D00BF984D /* DefuseTrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefuseTrap.png; sourceTree = "<group>"; };
+		CE6FA30B1F7A894D00BF984D /* intimidate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intimidate.png; sourceTree = "<group>"; };
+		CE6FA30C1F7A894D00BF984D /* monsterSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monsterSprite.png; sourceTree = "<group>"; };
+		CE6FA30D1F7A894D00BF984D /* OpenChest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenChest.png; sourceTree = "<group>"; };
+		CE6FA30E1F7A894D00BF984D /* revive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = revive.png; sourceTree = "<group>"; };
+		CE6FA30F1F7A894D00BF984D /* Rouge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rouge.png; sourceTree = "<group>"; };
+		CE6FA3101F7A894D00BF984D /* trapSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trapSprite.png; sourceTree = "<group>"; };
+		CE6FA3111F7A894D00BF984D /* warriror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warriror.png; sourceTree = "<group>"; };
+		CE6FA3121F7A894D00BF984D /* wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				CE6FA2E61F7A890A00BF984D /* AppDelegate.swift */,
-				CE6FA2E81F7A890A00BF984D /* ViewController.swift */,
 				CE6FA2EA1F7A890A00BF984D /* Main.storyboard */,
-				CE6FA2ED1F7A890A00BF984D /* Assets.xcassets */,
 				CE6FA2EF1F7A890A00BF984D /* LaunchScreen.storyboard */,
+				CE6FA2ED1F7A890A00BF984D /* Assets.xcassets */,
+				CE6FA3201F7A895E00BF984D /* Assets */,
 				CE6FA2F21F7A890A00BF984D /* Info.plist */,
 			);
 			path = "LARP Companion";
@@ -94,6 +118,26 @@
 				CE6FA2FD1F7A890A00BF984D /* Info.plist */,
 			);
 			path = "LARP CompanionTests";
+			sourceTree = "<group>";
+		};
+		CE6FA3201F7A895E00BF984D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CE6FA3061F7A894D00BF984D /* Book.png */,
+				CE6FA3071F7A894D00BF984D /* chestSprite.png */,
+				CE6FA3081F7A894D00BF984D /* Cleric.png */,
+				CE6FA3091F7A894D00BF984D /* CrystalBall.png */,
+				CE6FA30A1F7A894D00BF984D /* DefuseTrap.png */,
+				CE6FA30B1F7A894D00BF984D /* intimidate.png */,
+				CE6FA30C1F7A894D00BF984D /* monsterSprite.png */,
+				CE6FA30D1F7A894D00BF984D /* OpenChest.png */,
+				CE6FA30E1F7A894D00BF984D /* revive.png */,
+				CE6FA30F1F7A894D00BF984D /* Rouge.png */,
+				CE6FA3101F7A894D00BF984D /* trapSprite.png */,
+				CE6FA3111F7A894D00BF984D /* warriror.png */,
+				CE6FA3121F7A894D00BF984D /* wizard.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +225,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6FA3141F7A894D00BF984D /* chestSprite.png in Resources */,
+				CE6FA3191F7A894D00BF984D /* monsterSprite.png in Resources */,
+				CE6FA31A1F7A894D00BF984D /* OpenChest.png in Resources */,
 				CE6FA2F11F7A890A00BF984D /* LaunchScreen.storyboard in Resources */,
 				CE6FA2EE1F7A890A00BF984D /* Assets.xcassets in Resources */,
+				CE6FA3161F7A894D00BF984D /* CrystalBall.png in Resources */,
+				CE6FA31B1F7A894D00BF984D /* revive.png in Resources */,
+				CE6FA3171F7A894D00BF984D /* DefuseTrap.png in Resources */,
+				CE6FA3151F7A894D00BF984D /* Cleric.png in Resources */,
+				CE6FA31D1F7A894D00BF984D /* trapSprite.png in Resources */,
+				CE6FA3181F7A894D00BF984D /* intimidate.png in Resources */,
+				CE6FA3131F7A894D00BF984D /* Book.png in Resources */,
+				CE6FA31E1F7A894D00BF984D /* warriror.png in Resources */,
 				CE6FA2EC1F7A890A00BF984D /* Main.storyboard in Resources */,
+				CE6FA31F1F7A894D00BF984D /* wizard.png in Resources */,
+				CE6FA31C1F7A894D00BF984D /* Rouge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6FA2E91F7A890A00BF984D /* ViewController.swift in Sources */,
 				CE6FA2E71F7A890A00BF984D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
